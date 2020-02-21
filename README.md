@@ -1,6 +1,6 @@
 # laundry_scraper
 
-This is a webscraping tool that allows you to check the status of the washing machines at Cal Poly. 
+This is a webscraping tool that allows you to check the status of the washing machines at Cal Poly all from the comfort of your terminal. 
 
 Currently a work in progress...check back later for an additional description.
 
