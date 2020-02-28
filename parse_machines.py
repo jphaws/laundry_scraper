@@ -1,6 +1,7 @@
 __author__ = "jphaws"
 __version__ = "0.0.1"
 import json
+import pyfiglet
 
 def main():
 	North = ['484', '490', '498', '510', '865-L', '865-U', '869-L', '869-U']
@@ -20,9 +21,11 @@ def main():
 					south_machines.insert(0, machine)
 				else:
 					south_machines.append(machine)
-		print('\n\tNorth Side Laundry Room \n')
+		north = pyfiglet.figlet_format("North Laundry Room") 
+		print(north)
 		print_stats(north_machines)
-		print('\n\n\tSouth Side Laundry Room \n')
+		south = pyfiglet.figlet_format("South Laundry Room") 
+		print(south)
 		print_stats(south_machines)
 		print('\n')
 
