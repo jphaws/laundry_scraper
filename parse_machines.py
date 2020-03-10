@@ -34,7 +34,7 @@ def print_stats(dict):
 	for machine in dict:
 		out = ( machine['type'] + ' #' + machine['number'] + ' is ' + machine['status'].lower())
 		if(machine['status'] == 'In use'):
-			out += (': ' + machine['time'])
+			out += (': ' + machine['rem'])
 		out += '.'
 		print(out)
 
